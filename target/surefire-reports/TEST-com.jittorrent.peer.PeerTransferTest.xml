@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.jittorrent.peer.PeerTransferTest" time="0.015" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="27"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/test-classes:/Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/classes:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/anhadsingh/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/anhadsingh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-controls/21.0.5/javafx-controls-21.0.5.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-controls/21.0.5/javafx-controls-21.0.5-mac-aarch64.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-graphics/21.0.5/javafx-graphics-21.0.5.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-graphics/21.0.5/javafx-graphics-21.0.5-mac-aarch64.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-base/21.0.5/javafx-base-21.0.5.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-base/21.0.5/javafx-base-21.0.5-mac-aarch64.jar:/Users/anhadsingh/.m2/repository/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar:/Users/anhadsingh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="27"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/27.0.1.0.3/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/surefire/surefirebooter-20261113024543658_3.jar /Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/surefire 2026-11-13T02-45-43_625-jvmRun1 surefire-20261113024543658_1tmp surefire_0-20261113024543658_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/test-classes:/Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/classes:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/anhadsingh/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/anhadsingh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/anhadsingh/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-controls/21.0.5/javafx-controls-21.0.5.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-controls/21.0.5/javafx-controls-21.0.5-mac-aarch64.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-graphics/21.0.5/javafx-graphics-21.0.5.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-graphics/21.0.5/javafx-graphics-21.0.5-mac-aarch64.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-base/21.0.5/javafx-base-21.0.5.jar:/Users/anhadsingh/.m2/repository/org/openjfx/javafx-base/21.0.5/javafx-base-21.0.5-mac-aarch64.jar:/Users/anhadsingh/.m2/repository/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar:/Users/anhadsingh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anhadsingh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-24"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/27.0.1.0.3/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anhadsingh/Desktop/JitTorrent/jittorrent"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero disjoint base"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/anhadsingh/Desktop/JitTorrent/jittorrent/target/surefire/surefirebooter-20261113024543658_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="27.0.1.0.3"/>
+    <property name="user.name" value="anhadsingh"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="27.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/anhadsingh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qn/kcv3m1ms3hn5qp6wm_vjm7yw0000gn/T/"/>
+    <property name="java.version" value="27.0.1.0.3"/>
+    <property name="user.dir" value="/Users/anhadsingh/Desktop/JitTorrent/jittorrent"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/anhadsingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="27.0.1.0.3"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="71.0"/>
+  </properties>
+  <testcase name="unknownFileIsReportedAsError(Path)" classname="com.jittorrent.peer.PeerTransferTest" time="0.004">
+    <system-err><![CDATA[Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer share
+INFO: Sharing source.bin (2 pieces)
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer start
+INFO: Seeder listening on port 52980
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer handle
+INFO: Peer connected: /127.0.0.1:52981
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer handle
+INFO: Peer disconnected: /127.0.0.1:52981
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer stop
+INFO: Seeder stopped
+]]></system-err>
+  </testcase>
+  <testcase name="downloadsFileFromSeeder(Path)" classname="com.jittorrent.peer.PeerTransferTest" time="0.01">
+    <system-err><![CDATA[Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer share
+INFO: Sharing source.bin (11 pieces)
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer start
+INFO: Seeder listening on port 52982
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer handle
+INFO: Peer connected: /127.0.0.1:52983
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.DownloadTask download
+INFO: Downloading source.bin (11 pieces)
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.DownloadTask download
+INFO: Download complete: /var/folders/qn/kcv3m1ms3hn5qp6wm_vjm7yw0000gn/T/junit3112660720793979900/out/source.bin
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer handle
+INFO: Peer disconnected: /127.0.0.1:52983
+Nov 13, 2026 2:45:44 AM com.jittorrent.peer.SeederServer stop
+INFO: Seeder stopped
+]]></system-err>
+  </testcase>
+</testsuite>
