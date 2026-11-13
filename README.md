@@ -21,7 +21,7 @@
 #### 3. Tracker Server Classes
 
 <p align="center">
-  <img src="" alt="User Module Class Diagram" width="700">
+  <img src="docs/ClassDiagrams_completed_drawio-Tracker.drawio.svg" alt="User Module Class Diagram" width="700">
 </p>
 
 #### 4. Database Classes
