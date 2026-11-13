@@ -5,4 +5,9 @@
 </p>
 
 # Class Diagram
+
+<p align="center">
+  <img src="docs/ClassDiagrams_Jittorrent.pdf" alt="Class Diagram" width="700">
+</p>
+
 # Data Flow Diagrams (DFDs)
