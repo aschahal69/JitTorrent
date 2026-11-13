@@ -48,5 +48,3 @@
 <p align="center">
   <img src="docs/ClassDiagrams_completed_drawio-Storage and Util.drawio.svg" alt="User Module Class Diagram" width="700">
 </p>
-
-# Data Flow Diagrams (DFDs)
